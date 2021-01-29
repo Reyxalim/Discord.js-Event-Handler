@@ -19,7 +19,7 @@ module.exports = client;
 Now, the event handler
 ```js
 readdirSync('./events/).forEach(file => {
-    const event = requires(`./events/${file}`);
+    const event = require(`./events/${file}`);
     
     console.log(`${event.name} event loaded`);
     client[event.emitter](event.name, (...params) => event.emit(...params));
