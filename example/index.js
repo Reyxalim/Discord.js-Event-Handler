@@ -17,7 +17,7 @@ module.exports = client
 //Read the 'events' directory and using the 'forEach' loop to require each file
 readdirSync('./events/).forEach(file => {
     //Require the file
-    const event = requires(`./events/${file}`);
+    const event = require(`./events/${file}`);
     
     console.log(`${event.name} event loaded`);
 
