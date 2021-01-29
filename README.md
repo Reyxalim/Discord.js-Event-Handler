@@ -25,4 +25,9 @@ readdirSync('./events/).forEach(file => {
 });
 ```
 We use the `readdirSync('./events/)` to read our current directory assuming you store all you event files in a folder called `events`.
-Then, using `forEach` loop, we require each and every file that we just read in the `events` directory
+Then, using `forEach` loop, we require each and every file that we just read in the `events` directory.
+The second last line, or this line:
+```js
+client[event.emitter](event.name, (...params) => event.emit(...params));
+```
+This line will run when we run our bot but will also wait for other event
