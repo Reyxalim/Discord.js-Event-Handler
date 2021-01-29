@@ -27,4 +27,3 @@ readdirSync('./events/).forEach(file => {
 
 //Login your bot
 client.login(Token);
-© 2021 GitHub, Inc.
