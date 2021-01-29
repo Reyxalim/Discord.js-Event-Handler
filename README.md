@@ -45,3 +45,5 @@ module.exports = {
     }
 }
 ```
+## Example ##
+For example, you can read the [example folder]
