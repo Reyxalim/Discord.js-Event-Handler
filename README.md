@@ -46,4 +46,4 @@ module.exports = {
 }
 ```
 ## Example ##
-For example, you can read the [example folder]
+For example, you can read the [example folder](https://github.com/Reyxalim/Discord.js-Event-Handler/tree/main/example)
