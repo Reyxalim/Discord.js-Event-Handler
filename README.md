@@ -1,6 +1,7 @@
 # Discord.js-Event-Handler
 A tutorial on how to make a event handler using the Discord.js lib
 
+## index.js ##
 First, let's require our all the module that we need
 ```js
 const Discord = require('discord.js');
@@ -31,3 +32,16 @@ The second last line, or this line:
 client[event.emitter](event.name, (...params) => event.emit(...params));
 ```
 This line will run when we run our bot but will also wait for other event
+
+## event.js ##
+Use this format in all your event files:
+```js
+module.exports = {
+    name: 'event-name',    //Example: 'ready', 'message', 'guildCreate'
+    emitter: 'on',         // Can also be 'once'. It depends on your event
+    emit: (PARAMS) => {    //Your params. Example: 'emit: (message) => {...}', 'emit: (oldMember, newMember) => {...}'
+        //Your code...
+        //This will run when an event is triggered
+    }
+}
+```
