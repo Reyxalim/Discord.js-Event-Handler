@@ -49,4 +49,5 @@ module.exports = {
 For example, you can read the [example folder](https://github.com/Reyxalim/Discord.js-Event-Handler/tree/main/example)
 
 ## Help ##
-Need help, you can DM me on Discord. My tag is: `Reyxalim#8388`
+You can DM me on Discord. My tag is: `Reyxalim#8388`
+You could also join [Javascript Universe](https://discord.gg/ZffDzBwdYN)
